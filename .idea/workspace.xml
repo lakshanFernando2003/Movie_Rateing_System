@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0111be42-03b8-4e97-8f37-b68f49ea4f1c" name="Changes" comment="completed MovieStore.java file with all methods to ,get, delete , update movies">
-      <change afterPath="$PROJECT_DIR$/src/com/rootcode/movierating/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rootcode/movierating/cli/MovieRatingSystemCLI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rootcode/movierating/service/MovieService.java" afterDir="false" />
+    <list default="true" id="0111be42-03b8-4e97-8f37-b68f49ea4f1c" name="Changes" comment="implemented the main cli class the get user inputs and handled errors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rootcode/movierating/model/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rootcode/movierating/model/Rating.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -93,7 +92,31 @@
       <option name="project" value="LOCAL" />
       <updated>1742999642294</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="implemented the MovieService where it handles th businsess logic to acsess MovieStore">
+      <option name="closed" value="true" />
+      <created>1743004862890</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743004862890</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated the rating class to show the review in one line">
+      <option name="closed" value="true" />
+      <created>1743004951941</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743004951941</updated>
+    </task>
+    <task id="LOCAL-00007" summary="implemented the main cli class the get user inputs and handled errors">
+      <option name="closed" value="true" />
+      <created>1743004994954</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743004994954</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +162,9 @@
     <MESSAGE value="completed Movie.java file" />
     <MESSAGE value="completed Rating.java file" />
     <MESSAGE value="completed MovieStore.java file with all methods to ,get, delete , update movies" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed MovieStore.java file with all methods to ,get, delete , update movies" />
+    <MESSAGE value="implemented the MovieService where it handles th businsess logic to acsess MovieStore" />
+    <MESSAGE value="updated the rating class to show the review in one line" />
+    <MESSAGE value="implemented the main cli class the get user inputs and handled errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented the main cli class the get user inputs and handled errors" />
   </component>
 </project>
