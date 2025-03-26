@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0111be42-03b8-4e97-8f37-b68f49ea4f1c" name="Changes" comment="" />
+    <list default="true" id="0111be42-03b8-4e97-8f37-b68f49ea4f1c" name="Changes" comment="completed MovieStore.java file with all methods to ,get, delete , update movies">
+      <change afterPath="$PROJECT_DIR$/src/com/rootcode/movierating/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rootcode/movierating/cli/MovieRatingSystemCLI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rootcode/movierating/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rootcode/movierating/model/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rootcode/movierating/model/Rating.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -22,9 +41,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -36,6 +61,84 @@
       <option name="presentableId" value="Default" />
       <updated>1742994849668</updated>
     </task>
+    <task id="LOCAL-00001" summary="created project for Movie rating system">
+      <option name="closed" value="true" />
+      <created>1742995752413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742995752413</updated>
+    </task>
+    <task id="LOCAL-00002" summary="completed Movie.java file">
+      <option name="closed" value="true" />
+      <created>1742998732282</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742998732282</updated>
+    </task>
+    <task id="LOCAL-00003" summary="completed Rating.java file">
+      <option name="closed" value="true" />
+      <created>1742998752420</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742998752420</updated>
+    </task>
+    <task id="LOCAL-00004" summary="completed MovieStore.java file with all methods to ,get, delete , update movies">
+      <option name="closed" value="true" />
+      <created>1742999642294</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742999642294</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created project for Movie rating system" />
+    <MESSAGE value="completed Movie.java file" />
+    <MESSAGE value="completed Rating.java file" />
+    <MESSAGE value="completed MovieStore.java file with all methods to ,get, delete , update movies" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed MovieStore.java file with all methods to ,get, delete , update movies" />
   </component>
 </project>
