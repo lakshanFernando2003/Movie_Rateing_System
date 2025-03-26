@@ -49,7 +49,7 @@ public class Rating {
 
     @Override
     public String toString(){
-        return  "Rating: " + stars + " stars - " + processedStars() + '\n' +
+        return  "Rating: " + stars + " stars - " + processedStars() +
                 (review == null || review.isEmpty() ? "No review" : review); // checking for no review
     }
 }
