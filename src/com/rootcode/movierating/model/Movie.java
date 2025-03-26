@@ -51,7 +51,7 @@ public class Movie {
 
      // Method to get the top rated movie
     public boolean isTopRatedEligible(){
-        return ratings.size() >= 5; // A movie must have at least 5 ratings to be eligible for top rated
+        return ratings.size() > 0; // A movie must have at least 1 rating to be eligible for top rated
     }
 
     public List<Rating> getRatingsByStar (int star){
@@ -70,5 +70,3 @@ public class Movie {
     }
 
 }
-
-

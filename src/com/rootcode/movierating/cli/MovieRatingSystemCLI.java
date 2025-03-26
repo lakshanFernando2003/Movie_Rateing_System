@@ -4,6 +4,7 @@ import com.rootcode.movierating.model.Movie;
 import com.rootcode.movierating.model.Rating;
 import com.rootcode.movierating.service.MovieService;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.Scanner;
 
@@ -34,7 +35,8 @@ public class MovieRatingSystemCLI {
                     case 6 -> viewMoviesByGenre(scanner);
                     case 7 -> viewReviewsByRating(scanner);
                     case 8 -> viewTopRatedMovies();
-                    case 9 -> {
+                    case 9 -> viewAllMovies();
+                    case 10 -> {
                         System.out.println("Exiting... Goodbye!");
                         running = false;
                     }
@@ -58,7 +60,8 @@ public class MovieRatingSystemCLI {
         System.out.println("6. View Movies by Genre");
         System.out.println("7. View Reviews by Rating");
         System.out.println("8. View Top-Rated Movies");
-        System.out.println("9. Exit\n");
+        System.out.println("9. View All Movies");
+        System.out.println("10. Exit\n");
     }
 
     private int getIntInput(Scanner scanner) {
@@ -228,10 +231,22 @@ public class MovieRatingSystemCLI {
     private void viewTopRatedMovies() {
         List<Movie> topRated = movieService.getTopRatedMovies();
         if (topRated.isEmpty()) {
-            System.out.println("No top-rated movies yet (minimum 5 ratings required).");
+            System.out.println("No rated movies found. Add ratings to see top movies.");
         } else {
             System.out.println("Top-Rated Movies:");
             for (Movie movie : topRated) {
+                System.out.println(" - " + movie);
+            }
+        }
+    }
+
+    private void viewAllMovies() {
+        Collection<Movie> allMovies = movieService.getAllMovies();
+        if (allMovies.isEmpty()) {
+            System.out.println("No movies found in the system.");
+        } else {
+            System.out.println("All Movies:");
+            for (Movie movie : allMovies) {
                 System.out.println(" - " + movie);
             }
         }

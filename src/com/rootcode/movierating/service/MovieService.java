@@ -69,24 +69,25 @@ public class MovieService {
 
     // Method to get top-rated movies
     public List<Movie> getTopRatedMovies() {
-        List<Movie> topMovie = new ArrayList<>();
+        List<Movie> topMovies = new ArrayList<>();
 
-        // Collect eligible movies
+        // Collect eligible movies (any movie with at least one rating)
         for (Movie movie : Store.getAllMovies()) {
             if (movie.isTopRatedEligible()) {
-                topMovie.add(movie);
+                topMovies.add(movie);
             }
         }
 
         // Sort in descending order of average rating
-        Collections.sort(topMovie, new Comparator<Movie>() {
+        Collections.sort(topMovies, new Comparator<Movie>() {
             @Override
             public int compare(Movie m1, Movie m2) {
                 return Double.compare(m2.getAvarageRating(), m1.getAvarageRating());
             }
         });
 
-        return topMovie;
+        // Return top 5 or fewer if less than 5 movies available
+        return topMovies.size() <= 5 ? topMovies : topMovies.subList(0, 5);
     }
 
     // Method to get all movies

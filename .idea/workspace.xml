@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0111be42-03b8-4e97-8f37-b68f49ea4f1c" name="Changes" comment="implemented the main cli class the get user inputs and handled errors">
+    <list default="true" id="0111be42-03b8-4e97-8f37-b68f49ea4f1c" name="Changes" comment="added the read me file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rootcode/movierating/cli/MovieRatingSystemCLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rootcode/movierating/cli/MovieRatingSystemCLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rootcode/movierating/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rootcode/movierating/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rootcode/movierating/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rootcode/movierating/service/MovieService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -28,11 +32,13 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2ur7TbhyWw9CCwZxBeav9aX7xmf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -116,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743004994954</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added the read me file">
+      <option name="closed" value="true" />
+      <created>1743005455891</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743005455891</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +173,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="created project for Movie rating system" />
     <MESSAGE value="completed Movie.java file" />
     <MESSAGE value="completed Rating.java file" />
@@ -165,6 +181,7 @@
     <MESSAGE value="implemented the MovieService where it handles th businsess logic to acsess MovieStore" />
     <MESSAGE value="updated the rating class to show the review in one line" />
     <MESSAGE value="implemented the main cli class the get user inputs and handled errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented the main cli class the get user inputs and handled errors" />
+    <MESSAGE value="added the read me file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the read me file" />
   </component>
 </project>
